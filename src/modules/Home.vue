@@ -22,11 +22,11 @@ export default {
     get() {
       window.apis
         .get("/user?ID=12345")
-        .then(function(response) {
-          console.log(response);
+        .then(function() {
+          // console.log(response);
         })
-        .catch(function(error) {
-          console.log(error);
+        .catch(function() {
+          // console.log(error);
         });
     }
   }

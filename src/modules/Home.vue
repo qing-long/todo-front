@@ -23,10 +23,10 @@ export default {
       window.apis
         .get("/user?ID=12345")
         .then(function(response) {
-          console.log(response);
+          // console.log(response);
         })
         .catch(function(error) {
-          console.log(error);
+          // console.log(error);
         });
     }
   }
